@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    font-family: "Microsoft YaHei";
+}
+.content {
+
+}
+
+.header {
+    width: 100%;
+    padding: 2rem;
+    background: #E0E6E9;
+    position: relative;
+}
+
+.topPic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    font-family: "Lucida Handwriting";
+    color: #5f5f5f;
+    position: absolute;
+    left: 57%;
+    top:57%;
+}
+.title {
+    color: #5f5f5f;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 120%;
+}
+.title > div {
+    margin-top:-1.5rem;
+}
+
+.aboutme .banner,
+.skills .banner,
+.exper .banner,
+.project .banner{
+    width: 100%;
+    text-align: center;
+    padding:2rem;
+}
+.aboutme .subtitle,
+.skills .subtitle,
+.exper .subtitle,
+.project .subtitle{
+    font-size: 160%;
+    color: #5f5f5f;
+    text-shadow: 0 0 2px #565656;
+}
+.aboutmeBody{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.aboutmeBody .left,
+.aboutmeBody .right{
+    width: 50%;
+    padding:1rem;
+}
+.aboutmeBody .left {
+    line-height: 1.5rem;
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+.aboutmeBody .emphasize{
+    font-size: 170%;
+    padding-right: .5rem;
+}
+.aboutmeBody .avatar{
+    float: right;
+    width: 8rem;
+    height: 8rem;
+    background: url("../images/my.jpg") no-repeat 72% 40%;
+    border-radius: 50%;
+    background-size: 130% 130%;
+    box-shadow: 0 0 0 2px #e9ab25;
+}
+.right ul > li + li {
+    border-top: 1px solid #64b6ec;
+}
+.right ul > li,
+.skillLeft > ul > li,
+.skillRight > ul > li {
+    list-style: none;
+    padding: .5rem .8rem;
+    overflow: hidden;
+}
+.right ul > li > div:first-child,
+.skillLeft > ul > li > div:first-child,
+.skillRight > ul > li > div:first-child {
+    float: left;
+}
+.right ul > li > div:last-child,
+.skillLeft > ul > li > div:last-child,
+.skillRight > ul > li > div:last-child{
+    float: right;
+}
+.skillsBody {
+    width: 60%;
+    margin: 0 auto;
+}
+.skillLeft,
+.skillRight{
+    width: 50%;
+    padding:1.5rem;
+    font-size: 110%;
+    display: inline-block;
+}
+.skillLeft > ul > li > div:last-child,
+.skillRight > ul > li > div:last-child {
+    color: orangered;
+    font-size: 110%;
+}
+.skillsBody .detail{
+    display: flex;
+    justify-content: center;
+}
+.detail li {
+    line-height: 1.8rem;
+    font-size: 120%;
+}
+.experBody {
+    width: 63%;
+    margin:0 auto;
+}
+.experBody > ul{
+    border-left:1px solid #5c5c5c;
+    margin-left: 2rem;
+    padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.experBody > ul > li {
+    padding-left: .9rem;
+    list-style: none;
+    margin: .5rem 0;
+}
+.experBody > ul > li > div {
+    position: relative;
+    margin-left: 7%;
+    font-size: 120%;
+    line-height: 2rem;
+}
+.experBody > ul > li > div:first-child{
+    font-size: 130%;
+    font-weight: bold;
+}
+.experBody > ul > li > div:first-child:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    right: 107.5%;
+    top:0;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 2px #5c5c5c;
+
+}
+.subText {
+    font-style: italic;
+    font-weight: bold;
+}
+.project {
+    line-height: 1.5rem;
+    margin-left: 5%;
+}
+.project li{
+    list-style: square;
+    font-size: 110%;
+}
+.subEng {
+    font-size: 85%;
+    color: #888;
+}
